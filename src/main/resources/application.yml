@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: test
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: storage
+      authentication-database: admin
+      username: root
+      password: root
+
+server:
+  port: 8081
